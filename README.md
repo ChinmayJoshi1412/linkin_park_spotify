@@ -1,6 +1,6 @@
-# linkin_park_spotify
+# linkin_park_spotify_home_page
 
-A new Flutter project.
+This is a mini project made by me which is a UI clone of the spotify home page for Linkin Park 
 
 ## Getting Started
 
