@@ -66,6 +66,9 @@ flutter:
     - assets/numb.jfif
     - assets/whativedone.jfif
     - assets/numbencore.jpg
+    - assets/lpcomplete.jfif
+    - assets/livingthings.jfif
+    - assets/onemorelight.jfif
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

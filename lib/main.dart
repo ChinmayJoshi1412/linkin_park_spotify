@@ -21,6 +21,7 @@ class _LP_spotifyState extends State<LP_spotify> {
       backgroundColor: Colors.black38,
       appBar: AppBar(
         backgroundColor: Colors.transparent,
+        elevation: 0,
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -41,7 +42,7 @@ class _LP_spotifyState extends State<LP_spotify> {
                         Colors.black12,
                         Colors.black12,
                         Colors.black12,
-                        Colors.black12
+                        Colors.black12,
                       ]
                     )
                   ),
@@ -274,6 +275,178 @@ class _LP_spotifyState extends State<LP_spotify> {
                 ],
               ),
             ),
+            Padding(padding: EdgeInsets.fromLTRB(15, 30, 0, 0),
+              child: Container(
+              alignment: Alignment.topLeft,
+                child: Text('Artist Pick',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20
+                  )),
+            ),),
+
+            Padding(padding: EdgeInsets.fromLTRB(15,20,0,0),
+            child: Container(
+              alignment: Alignment.topLeft,
+              child: Row(
+                children: [
+                  Image.asset('assets/lpcomplete.jfif', height: 100),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(padding: EdgeInsets.fromLTRB(20,0,0,0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          CircleAvatar(backgroundImage: AssetImage('assets/LPBG.jfif')),
+                          SizedBox(width: 10,),
+                          Text('Posted by Linkin Park',style: TextStyle(
+                            fontSize: 12,color: Colors.white
+                          ),)
+                        ],
+                      )),
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(20,15,0,0),
+                        child: Text('Linkin Park Complete Playlist',style: TextStyle(
+                          fontSize: 15,
+                          color: Colors.white
+                        ),),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.fromLTRB(20,10,0,0),
+                        child: Text('Playlist',style: TextStyle(
+                            fontSize: 13,
+                            color: Colors.white
+                        ),),
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),),
+            Padding(padding: EdgeInsets.fromLTRB(15, 30, 0, 0),
+              child: Container(
+                alignment: Alignment.topLeft,
+                child: Text('Popular releases',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20
+                    )),
+              ),),
+            Padding(padding: EdgeInsets.fromLTRB(15,20,0,0),
+              child: Container(
+                alignment: Alignment.topLeft,
+                child: Row(
+                  children: [
+                    Image.asset('assets/intheend.jfif', height: 90),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,15,0,0),
+                          child: Text('Hybrid Theory(Bonus Edition)',style: TextStyle(
+                              fontSize: 17,
+                              color: Colors.white
+                          ),),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,5,0,0),
+                          child: Text('2000 . Album',style: TextStyle(
+                              fontSize: 13,
+                              color: Colors.grey
+                          ),),
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),),
+            Padding(padding: EdgeInsets.fromLTRB(15,20,0,0),
+              child: Container(
+                alignment: Alignment.topLeft,
+                child: Row(
+                  children: [
+                    Image.asset('assets/numb.jfif', height: 90),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,15,0,0),
+                          child: Text('Meteora(Bonus Edition)',style: TextStyle(
+                              fontSize: 17,
+                              color: Colors.white
+                          ),),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,5,0,0),
+                          child: Text('2003 . Album',style: TextStyle(
+                              fontSize: 13,
+                              color: Colors.grey
+                          ),),
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),),
+            Padding(padding: EdgeInsets.fromLTRB(15,20,0,0),
+              child: Container(
+                alignment: Alignment.topLeft,
+                child: Row(
+                  children: [
+                    Image.asset('assets/livingthings.jfif', height: 90),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,15,0,0),
+                          child: Text('LIVING THINGS',style: TextStyle(
+                              fontSize: 17,
+                              color: Colors.white
+                          ),),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,5,0,0),
+                          child: Text('2012 . Album',style: TextStyle(
+                              fontSize: 13,
+                              color: Colors.grey
+                          ),),
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),),
+            Padding(padding: EdgeInsets.fromLTRB(15,20,0,15),
+              child: Container(
+                alignment: Alignment.topLeft,
+                child: Row(
+                  children: [
+                    Image.asset('assets/onemorelight.jfif', height: 90),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,15,0,0),
+                          child: Text('One More Light',style: TextStyle(
+                              fontSize: 17,
+                              color: Colors.white
+                          ),),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.fromLTRB(20,5,0,0),
+                          child: Text('2017 . Album',style: TextStyle(
+                              fontSize: 13,
+                              color: Colors.grey
+                          ),),
+                        )
+                      ],
+                    )
+                  ],
+                ),
+              ),)
             ],
           ),
         ),
